@@ -12,6 +12,7 @@ public class StaticTest {
 	
 	public static void staticMethod() {
 		System.out.println("클래스메서드");
-		System.out.println(num2);
+		System.out.println(StaticTest.num2);
+		
 	}
 }
